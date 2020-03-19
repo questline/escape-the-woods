@@ -1,0 +1,9 @@
+:: The Forest
+[img[https://i.imgur.com/hsILMxr.png]]
+<h1>Spooky Forest</h1>
+<p>Now you're in the forest!<br>
+You found 5 gold!</p>
+<<set $gold += 5>>
+<div id="links">
+[[Go back into town|Town]]
+</div>
