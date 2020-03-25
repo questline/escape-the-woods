@@ -100,7 +100,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://99A65DB0-81F1-47C4-A2F2-21AA88E85882// --><tw-storydata name="Quest" startnode="12" creator="Tweego" creator-version="2.1.1" ifid="99A65DB0-81F1-47C4-A2F2-21AA88E85882" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">:root {
+	<!-- UUID://99A65DB0-81F1-47C4-A2F2-21AA88E85882// --><tw-storydata name="Quest" startnode="13" creator="Tweego" creator-version="2.1.1" ifid="99A65DB0-81F1-47C4-A2F2-21AA88E85882" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">:root {
   --border: 1px solid white;
   --margin-width: 10px 0;
 }
@@ -332,17 +332,22 @@ You found 5 gold!&lt;/p&gt;
 &lt;h3&gt;Spooky Forest&lt;/h3&gt;
 &lt;p&gt;You&#39;ve walked further into the forest and come to a crossroads&lt;/p&gt;
 &lt;div id=&quot;links&quot;&gt;
+[[Go back into town|Forest Thief]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="Forest Thief" tags="" position="850,100" size="100,100">[img[https://i.imgur.com/hsILMxr.png]]
+&lt;h3&gt;Spooky Forest&lt;/h3&gt;
+&lt;p&gt;You&#39;ve walked further into the forest and come to a crossroads&lt;/p&gt;
+&lt;div id=&quot;links&quot;&gt;
 [[Go back into town|Town]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="HeadAppend" tags="" position="850,100" size="100,100">&lt;link href=&quot;https://fonts.googleapis.com/css?family=Cherry+Swash|Open+Sans&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
-&lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;favicon.ico&quot; /&gt;</tw-passagedata><tw-passagedata pid="8" name="StoryInit" tags="" position="975,100" size="100,100">&lt;&lt;set $gold to 6&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="8" name="HeadAppend" tags="" position="975,100" size="100,100">&lt;link href=&quot;https://fonts.googleapis.com/css?family=Cherry+Swash|Open+Sans&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;favicon.ico&quot; /&gt;</tw-passagedata><tw-passagedata pid="9" name="StoryInit" tags="" position="1100,100" size="100,100">&lt;&lt;set $gold to 6&gt;&gt;
 &lt;&lt;set $name to &quot;Saul Goodman&quot;&gt;&gt;
-&lt;&lt;set $class to &quot;Warrior&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="PassageHeader" tags="" position="1100,100" size="100,100">&lt;table id=&quot;stats&quot; style=&quot;width:100%;&quot;&gt;
+&lt;&lt;set $class to &quot;Warrior&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="PassageHeader" tags="" position="1225,100" size="100,100">&lt;table id=&quot;stats&quot; style=&quot;width:100%;&quot;&gt;
   &lt;tr&gt;
    &lt;td style=&quot;text-align:left;&quot;&gt;G: $gold&lt;/td&gt;
    &lt;td style=&quot;text-align:center;&quot;&gt;[[$name|CharacterPage]]&lt;/td&gt;
    &lt;td style=&quot;text-align:right;&quot;&gt;$class&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="10" name="StorySubtitle" tags="" position="1225,100" size="100,100">Version: 0.0.1</tw-passagedata><tw-passagedata pid="11" name="StoryAuthor" tags="" position="100,225" size="100,100">by Vaynwork</tw-passagedata><tw-passagedata pid="12" name="Start" tags="" position="225,225" size="100,100">[img[https://i.imgur.com/1xd4FER.png]]
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="11" name="StorySubtitle" tags="" position="100,225" size="100,100">Version: 0.0.1</tw-passagedata><tw-passagedata pid="12" name="StoryAuthor" tags="" position="225,225" size="100,100">by Vaynwork</tw-passagedata><tw-passagedata pid="13" name="Start" tags="" position="350,225" size="100,100">[img[https://i.imgur.com/1xd4FER.png]]
 &lt;h1&gt;Start of the quest&lt;/h1&gt;
 &lt;p&gt;This is the start of your Quest!&lt;/p&gt;
 &lt;div id=&quot;links&quot;&gt;
@@ -350,13 +355,13 @@ You found 5 gold!&lt;/p&gt;
   [[Go to the town|Town]]
   [[Go to the town|Town]]
   [[Go to the town|Town]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="13" name="CharacterPage" tags="" position="350,225" size="100,100">&lt;h1&gt;Character Page&lt;/h1&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="14" name="CharacterPage" tags="" position="475,225" size="100,100">&lt;h1&gt;Character Page&lt;/h1&gt;
 &lt;p&gt;This is the character page which will have all
 the information about your character&lt;/p&gt;
 &lt;p&gt;&lt;&lt;textbox &quot;$name&quot; &quot;Name&quot;&gt;&gt;&lt;/p&gt;
 &lt;div id=&quot;links&quot;&gt;
   &lt;&lt;return &quot;Go Back&quot;&gt;&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="14" name="Town" tags="area" position="475,225" size="100,100">[img[https://i.imgur.com/pQk4pYn.png]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="15" name="Town" tags="area" position="600,225" size="100,100">[img[https://i.imgur.com/pQk4pYn.png]]
 &lt;h1&gt;Arteria Town Center&lt;/h1&gt;
 &lt;p&gt;You&#39;re in the town area&lt;br&gt;
 Where would you like to go?&lt;/p&gt;
