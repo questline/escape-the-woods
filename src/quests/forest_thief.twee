@@ -13,5 +13,13 @@ You found 5 gold!</p>
 <h3>Spooky Forest</h3>
 <p>You've walked further into the forest and come to a crossroads</p>
 <div id="links">
+[[Go back into town|Forest Thief]]
+</div>
+
+:: Forest Thief
+[img[https://i.imgur.com/hsILMxr.png]]
+<h3>Spooky Forest</h3>
+<p>You've walked further into the forest and come to a crossroads</p>
+<div id="links">
 [[Go back into town|Town]]
 </div>
