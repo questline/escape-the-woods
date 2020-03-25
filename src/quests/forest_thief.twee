@@ -1,9 +1,17 @@
 :: The Forest
 [img[https://i.imgur.com/hsILMxr.png]]
-<h1>Spooky Forest</h1>
+<h3>Spooky Forest</h3>
 <p>Now you're in the forest!<br>
 You found 5 gold!</p>
 <<set $gold += 5>>
+<div id="links">
+[[Push further into the forest|Forest Crossroads]]
+</div>
+
+:: Forest Crossroads
+[img[https://i.imgur.com/hsILMxr.png]]
+<h3>Spooky Forest</h3>
+<p>You've walked further into the forest and come to a crossroads</p>
 <div id="links">
 [[Go back into town|Town]]
 </div>
