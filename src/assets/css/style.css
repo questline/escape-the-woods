@@ -209,4 +209,10 @@ top: 0px;
   #header h1 {
     font-size: 2em;
   }
+  #story {
+    margin: .3em;
+  }
+  #passages {
+    padding: 5px;
+  }
 }
