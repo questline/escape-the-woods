@@ -51,7 +51,7 @@ body {
   border: var(--border);
 }
 
-#passages h1 {
+#passages h1,#passages h2,#passages h3,#passages h4 {
   text-align: center;
   margin: var(--margin-width);
   border: var(--border);
