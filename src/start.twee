@@ -11,7 +11,7 @@ Quest
 
 ::HeadAppend
 <link href="https://fonts.googleapis.com/css?family=Cherry+Swash|Open+Sans&display=swap" rel="stylesheet">
-<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="icon" href="favicon.png" sizes="192x192" type="image/png">
 
 ::StoryInit
 <<set $gold to 6>>
