@@ -29,3 +29,4 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GH_PAT }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./dist
+          CNAME: questline.vuw.nu
