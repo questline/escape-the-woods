@@ -1,5 +1,5 @@
 ::StoryTitle
-Quest
+Questline
 
 ::StoryData
 {
@@ -20,10 +20,10 @@ Quest
 
 ::PassageHeader
 <table id="stats" style="width:100%;">
-  <tr>
-   <td style="text-align:left;">G: $gold</td>
-   <td style="text-align:center;">[[$name|CharacterPage]]</td>
-   <td style="text-align:right;">$class</td>
+  <tr style="text-align:center;">
+   <td>G: $gold</td>
+   <td>$name</td>
+   <td>$class</td>
   </tr>
 </table>
 
@@ -36,13 +36,14 @@ by Vuwnu
 ::Start
 [img[https://i.imgur.com/1xd4FER.png]]
 <h1>Welcome to Questline</h1>
-<p>Questline is an online interactive</p>
+<p>Questline is a collection of online interactive fiction that can be played through as your own custom built character!</p>
 <div id="links">
   [[Go to the town|Town]]
-  [[Go to the town|Town]]
-  [[Go to the town|Town]]
-  [[Go to the town|Town]]
 </div>
+
+::Menu
+<h1>Character Page</h1>
+[[$name|CharacterPage]]
 
 ::CharacterPage
 <h1>Character Page</h1>
