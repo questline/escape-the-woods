@@ -15,7 +15,7 @@ Quest
 
 ::StoryInit
 <<set $gold to 6>>
-<<set $name to "Saul Goodman">>
+<<set $name to "John Smith">>
 <<set $class to "Warrior">>
 
 ::PassageHeader
@@ -51,15 +51,4 @@ the information about your character</p>
 <p><<textbox "$name" "Name">></p>
 <div id="links">
   <<return "Go Back">>
-</div>
-
-::Town [area]
-[img[https://i.imgur.com/pQk4pYn.png]]
-<h1>Arteria Town Center</h1>
-<p>You're in the town area<br>
-Where would you like to go?</p>
-<div id="links">
-  [[General Store|The Forest]]
-  [[Noticeboard|The Forest]]
-  [[The Forest|The Forest]]
 </div>

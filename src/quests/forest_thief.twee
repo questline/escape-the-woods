@@ -1,3 +1,14 @@
+::Town [area]
+[img[https://i.imgur.com/pQk4pYn.png]]
+<h1>Arteria Town Center</h1>
+<p>You're in the town area<br>
+Where would you like to go?</p>
+<div id="links">
+  [[General Store|The Forest]]
+  [[Noticeboard|The Forest]]
+  [[The Forest|The Forest]]
+</div>
+
 :: The Forest
 [img[https://i.imgur.com/hsILMxr.png]]
 <h3>Spooky Forest</h3>
