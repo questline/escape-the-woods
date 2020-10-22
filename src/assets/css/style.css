@@ -115,7 +115,6 @@ top: 0px;
 #links a {
   display: block;
   text-align: center;
-  border: var(--border);
   padding: .5em 1em;
   margin: 5px;
   flex: 2 0 150px;
