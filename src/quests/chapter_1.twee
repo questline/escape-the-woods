@@ -1,12 +1,12 @@
-::Town [area]
+::Standing up [area]
 [img[https://i.imgur.com/pQk4pYn.png]]
-<h1>Arteria Town Center</h1>
-<p>You're in the town area<br>
+<p>You're standing in an opening<br>
+There's large trees surrounding you and blocking your view<br>
+Ahead you can make out two paths that have been carved out through the trees<br>
 Where would you like to go?</p>
 <div id="links">
-  [[General Store|The Forest]]
-  [[Noticeboard|The Forest]]
-  [[The Forest|The Forest]]
+  [[Left Path|The Forest]]
+  [[Right Path|The Forest]]
 </div>
 
 :: The Forest
