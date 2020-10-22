@@ -45,24 +45,20 @@ body {
 
 /* Passage style */
 #passages {
-  background: #111;
   /* Center the box */
   display: inline-block;
   min-height: 40%;
   margin:0 auto;
   max-width: 50em;
   padding: 10px;
-  border: var(--border);
 }
 
 #passages h1,#passages h2,#passages h3,#passages h4 {
   text-align: center;
   margin: var(--margin-width);
-  border: var(--border);
 }
 #passages p {
   text-align: center;
-  border: var(--border);
   padding: 1em;
   margin: var(--margin-width);
   flex: 2 0 150px;
