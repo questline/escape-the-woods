@@ -27,6 +27,7 @@ html {
 
   /* Fallback colour */
   background-color: #000;
+  height: 100%;
 }
 
 body {
@@ -37,6 +38,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   /* Used to center the box */
   text-align: center;
+  display: grid;
+  place-items: center;
+  height: 100%;
 }
 
 /* Passage style */
