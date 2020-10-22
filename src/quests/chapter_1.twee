@@ -1,36 +1,35 @@
-::Standing up [area]
+:: Standing up [area]
 [img[https://i.imgur.com/pQk4pYn.png]]
 <p>You're standing in an opening<br>
 There's large trees surrounding you and blocking your view<br>
 Ahead you can make out two paths that have been carved out through the trees<br>
 Where would you like to go?</p>
 <div id="links">
-  [[Left Path|The Forest]]
-  [[Right Path|The Forest]]
+  [[Left Path|Left Path]]
+  [[Right Path|Right Path]]
 </div>
 
-:: The Forest
+:: Left Path
 [img[https://i.imgur.com/hsILMxr.png]]
-<h3>Spooky Forest</h3>
-<p>Now you're in the forest!<br>
-You found 5 gold!</p>
+<p>You took the left path<br>
+Branches snap and crunch beneath your feet as you march forwards<br>
+You find a gold coin</p>
 <<set $gold += 5>>
 <div id="links">
 [[Push further into the forest|Forest Crossroads]]
 </div>
 
-:: Forest Crossroads
+:: Right Path
 [img[https://i.imgur.com/hsILMxr.png]]
-<h3>Spooky Forest</h3>
-<p>You've walked further into the forest and come to a crossroads</p>
+<p>You took the right path and came to a dead end<br>
+A crow starts screeching in the distance</p>
 <div id="links">
-[[Go back into town|Forest Thief]]
+[[Go back|Standing up]]
 </div>
 
-:: Forest Thief
+:: Forest Crossroads
 [img[https://i.imgur.com/hsILMxr.png]]
-<h3>Spooky Forest</h3>
 <p>You've walked further into the forest and come to a crossroads</p>
 <div id="links">
-[[Go back into town|Town]]
+[[Go back into town|Standing up]]
 </div>
