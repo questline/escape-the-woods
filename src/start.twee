@@ -28,20 +28,9 @@ by Vuwnu
 
 ::Start
 [img[https://i.imgur.com/1xd4FER.png]]
-<p>Questline is a collection of online interactive fiction that can be played through as your own custom built character!</p>
+You wake up
+Tall black trees tower over you
+A pale Moon lights up the sky
 <div id="links">
-  [[Go to the town|Town]]
-</div>
-
-::Menu
-<h1>Character Page</h1>
-[[$name|CharacterPage]]
-
-::CharacterPage
-<h1>Character Page</h1>
-<p>This is the character page which will have all
-the information about your character</p>
-<p><<textbox "$name" "Name">></p>
-<div id="links">
-  <<return "Go Back">>
+  [[Get up|Town]]
 </div>
