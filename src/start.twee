@@ -1,5 +1,5 @@
 ::StoryTitle
-Questline
+Escape The Woods
 
 ::StoryData
 {
@@ -19,13 +19,6 @@ Questline
 <<set $class to "Warrior">>
 
 ::PassageHeader
-<table id="stats" style="width:100%;">
-  <tr style="text-align:center;">
-   <td>G: $gold</td>
-   <td>$name</td>
-   <td>$class</td>
-  </tr>
-</table>
 
 ::StorySubtitle
 Version: 0.0.1
@@ -35,7 +28,6 @@ by Vuwnu
 
 ::Start
 [img[https://i.imgur.com/1xd4FER.png]]
-<h1>Welcome to Questline</h1>
 <p>Questline is a collection of online interactive fiction that can be played through as your own custom built character!</p>
 <div id="links">
   [[Go to the town|Town]]
