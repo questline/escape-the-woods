@@ -27,10 +27,10 @@ Version: 0.0.1
 by Vuwnu
 
 ::Start
-[img[https://i.imgur.com/1xd4FER.png]]
-<p>You wake up</p>
-<p>Tall black trees tower over you</p>
-<p>A pale Moon lights up the sky</p>
+[img[https://i.imgur.com/hsILMxr.png]]
+<p>You wake up<br>
+Tall black trees tower over you<br>
+A pale Moon lights up the sky</p>
 <div id="links">
-  [[Get up|Town]]
+  [[Get up|Standing up]]
 </div>
